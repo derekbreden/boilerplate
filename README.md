@@ -4,9 +4,9 @@
 
 # boilerplate
 
-- express
-- bower
-- inlinegrid.css (installed by bower, served by express)
+- (express)[http://expressjs.com/]
+- (bower)[http://bower.io/]
+- (inline-grid.css)[https://github.com/derekbreden/inline-grid.css] (installed by bower, served by express)
 - static content (`/public` directory served by express)
 
 ```
