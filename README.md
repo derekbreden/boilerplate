@@ -1,6 +1,6 @@
 # boilerplate
 
-!(boilerplate)[http://i.imgur.com/MKR18Yo.png]
+![boilerplate](http://i.imgur.com/MKR18Yo.png)
 
 - express
 - bower
