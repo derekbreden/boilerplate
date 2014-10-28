@@ -22,43 +22,11 @@ head,script,style{
   display: none }
 
 
-
-/* FONT-FACE */
-@font-face {
-  font-family: 'quattrocento_sansregular';
-  src: url('/fonts/quattrocentosans-regular-webfont.eot');
-  src: url('/fonts/quattrocentosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/quattrocentosans-regular-webfont.woff2') format('woff2'),
-       url('/fonts/quattrocentosans-regular-webfont.woff') format('woff'),
-       url('/fonts/quattrocentosans-regular-webfont.ttf') format('truetype'),
-       url('/fonts/quattrocentosans-regular-webfont.svg#quattrocento_sansregular') format('svg');
-  font-weight: normal;
-  font-style: normal }
-@font-face {
-  font-family: 'quicksandregular';
-  src: url('/fonts/quicksand-regular-webfont.eot');
-  src: url('/fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/quicksand-regular-webfont.woff2') format('woff2'),
-       url('/fonts/quicksand-regular-webfont.woff') format('woff'),
-       url('/fonts/quicksand-regular-webfont.ttf') format('truetype'),
-       url('/fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
-  font-weight: normal;
-  font-style: normal }
-
-
-
 /* COLOR */
 body{
-  font-family: quattrocento_sansregular;
-  background: #f5f4f0 }
-body,a{
-  color: #1a1a1a }
-a:hover{
-  color: #357eeb }
-.gray-bg{
-  background: #ccc }
-.white-bg{
-  background: #fff }
+  font-family: Helvetica;
+  background: #FFF;
+  color: #333 }
 hr{
   border: none;
   border-top: 1px solid #999;
@@ -107,7 +75,6 @@ hr{
 
 /* TEXT */
 h1{
-  font-family: quicksandregular;
   font-size: 72px }
 p{
   font-size: 16px }
