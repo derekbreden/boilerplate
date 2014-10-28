@@ -1,0 +1,13 @@
+{
+  "main": "server.js",
+  "name": "boxytown",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "express": "^4.9.5",
+    "nodemon": "^1.2.1"
+  }
+}
