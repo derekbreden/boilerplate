@@ -8,9 +8,7 @@ app.all('/git-pull', function(req, res) {
   var ps = cp.spawn('git', ['pull'], {cwd: __dirname} )
   ps.stdout.on('data', function(data){ return console.log('OUT', data.toString()) })
   ps.stderr.on('data', function(data){ return console.log('ERR', data.toString()) })
-  return res.send("OK")
-})
+  return res.send("OK") })
 
 var port = process.env.PORT || process.env.HTTP_PORT || 8000
-
 app.listen(port)
