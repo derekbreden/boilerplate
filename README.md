@@ -6,9 +6,8 @@
 
 - express
 - bower
-- inlinegrid.css (coming soon)
-- mithril (coming soon)
-- static content
+- inlinegrid.css (installed by bower, served by express)
+- static content (`/public` directory served by express)
 
 ```
   git clone https://github.com/derekbreden/boilerplate
