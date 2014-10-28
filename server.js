@@ -3,7 +3,7 @@ var app = express()
 
 app.use(express["static"](__dirname + '/public'))
 
-app.all('/u', function(req, res) {
+app.all('/git-pull', function(req, res) {
   var cp = require('child_process')
   var ps = cp.spawn('git', ['pull'], {cwd: __dirname} )
   ps.stdout.on('data', function(data){ return console.log('OUT', data.toString()) })
