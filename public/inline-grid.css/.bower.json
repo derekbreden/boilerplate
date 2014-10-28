@@ -1,0 +1,26 @@
+{
+  "name": "inline-grid.css",
+  "homepage": "https://github.com/derekbreden/inline-grid.css",
+  "authors": [
+    "Derek Bredensteiner <derekbreden@gmail.com>"
+  ],
+  "description": "css grid framework *inline-block",
+  "ignore": [],
+  "main": "inline-grid.css",
+  "keywords": [
+    "css",
+    "grid",
+    "framework"
+  ],
+  "license": "MIT",
+  "_release": "96ed8f246a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "96ed8f246a7740982f30c2689a104bfd26aaba92"
+  },
+  "_source": "git://github.com/derekbreden/inline-grid.css.git",
+  "_target": "*",
+  "_originalSource": "inline-grid.css",
+  "_direct": true
+}
